@@ -1,0 +1,49 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles  */
+.display-flex{
+    display: flex;
+}
+
+/* dark -02  */
+.text-gray{
+    color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header styles  */
+
+/* navbar related styles  */
+
+.navbar{
+    /* display: flex; */
+    justify-content: space-between;
+}
+.nav-item{
+    /* display: flex; */
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
